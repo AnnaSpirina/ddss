@@ -149,3 +149,4 @@ IDE: VS code
   
 ### На уровне хранения
 Реляционная база данных PostgreSQL
+![Диаграмма БД_2025-03-09T15_54_20 012Z](https://github.com/user-attachments/assets/940d7f3f-e737-467d-a19d-035bfb669d37)
