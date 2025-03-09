@@ -82,3 +82,70 @@ https://github.com/AnnaSpirina/ddss
 - QR-коды (QRCodeService):
 
    **Методы**: сгенерировать QR-код, проверить QR-код.
+
+## 5. Инструментарий (язык, IDE/редактор кода, etc.)
+Язык: Node.js, React.js
+
+IDE: VS code
+
+## 6. Модель данных
+### На уровне приложения
+Сущности и их атрибуты:
+1) Студенческая организация (StudentOrganization):
+- id (int)
+- name (строка)
+- description (строка)
+
+2) Руководитель студенческой организации (OrganizationLeader):
+- id (int)
+- name (строка)
+- organization_id (внешний ключ на StudentOrganization)
+
+3) Мероприятие (Event):
+- id (int)
+- name (строка)
+- description (строка)
+- date_time (дата и время)
+- location (строка)
+- organization_id (внешний ключ на StudentOrganization)
+- status (строка)
+
+4) Студент (Student):
+- id (int)
+- name (строка)
+- email (строка)
+
+5) Подписка (Subscription):
+- student_id (внешний ключ на Student)
+- organization_id (внешний ключ на StudentOrganization)
+
+6) Регистрация на мероприятие (EventRegistration):
+- student_id (внешний ключ на Student)
+- event_id (внешний ключ на Event)
+
+7) Пост (Post):
+- id (int)
+- content (строка)
+- organization_id (внешний ключ на StudentOrganization)
+- event_id (внешний ключ на Event)
+
+8) QR-код (QRCode):
+- id (int)
+- event_id (внешний ключ на Event)
+- code (строка, уникальный идентификатор)
+
+9) Статистика (Statistics):
+- event_id (внешний ключ на Event)
+- registered_count (int)
+- attended_count (int)
+
+Связи между сущностями:
+- StudentOrganization имеет одного OrganizationLeader.
+- StudentOrganization проводит множество Event.
+- Student может подписываться на множество StudentOrganization (через Subscription).
+- Student может регистрироваться на множество Event (через EventRegistration).
+- Event имеет один QRCode.
+- StudentOrganization публикует множество Post.
+  
+### На уровне хранения
+Реляционная база данных PostgreSQL
