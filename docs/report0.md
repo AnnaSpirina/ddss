@@ -89,9 +89,6 @@ student-organization-system/
 │   │   └── services/
 │   │       ├── NotificationService.js
 │   │       └── QRCodeService.js
-│   ├── application/
-│   │   └── services/
-│   │       └── UserRegistrationService.js
 │   └── infrastructure/
 │       └── console/
 │           └── app.js
@@ -102,3 +99,6 @@ student-organization-system/
 ### На уровне хранения
 Реляционная база данных PostgreSQL
 ![Диаграмма БД_2025-03-09T15_54_20 012Z](https://github.com/user-attachments/assets/940d7f3f-e737-467d-a19d-035bfb669d37)
+
+## 7 и 8. Реализация и загрузка на веб-хостинг
+Первоначальные требования реализованы и опубликованы в https://github.com/AnnaSpirina/ddss/tree/main/lab0. Описание к проекту присутствует в файле readme.md.
