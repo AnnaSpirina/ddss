@@ -89,9 +89,6 @@ student-organization-system/
 │   │   └── services/
 │   │       ├── NotificationService.js
 │   │       └── QRCodeService.js
-│   ├── application/
-│   │   └── services/
-│   │       └── UserRegistrationService.js
 │   └── infrastructure/
 │       └── console/
 │           └── app.js
