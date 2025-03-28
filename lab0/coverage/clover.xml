@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1742154047697" clover="3.2.0">
-  <project timestamp="1742154047706" name="All files">
+<coverage generated="1742160853094" clover="3.2.0">
+  <project timestamp="1742160853104" name="All files">
     <metrics statements="47" coveredstatements="46" conditionals="8" coveredconditionals="7" methods="19" coveredmethods="19" elements="74" coveredelements="72" complexity="0" loc="47" ncloc="47" packages="2" files="4" classes="4"/>
     <package name="entities">
       <metrics statements="37" coveredstatements="37" conditionals="4" coveredconditionals="4" methods="14" coveredmethods="14"/>
-      <file name="Event.js" path="D:\4\3 Разработка распределённых программных систем\student-organization-system\src\domain\entities\Event.js">
+      <file name="Event.js" path="D:\4\3 Разработка распределённых программных систем\student-organization-system\lab0\src\domain\entities\Event.js">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
@@ -18,7 +18,7 @@
         <line num="15" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
       </file>
-      <file name="Student.js" path="D:\4\3 Разработка распределённых программных систем\student-organization-system\src\domain\entities\Student.js">
+      <file name="Student.js" path="D:\4\3 Разработка распределённых программных систем\student-organization-system\lab0\src\domain\entities\Student.js">
         <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="8" coveredmethods="8"/>
         <line num="3" count="14" type="stmt"/>
         <line num="4" count="14" type="stmt"/>
@@ -37,7 +37,7 @@
         <line num="39" count="1" type="stmt"/>
         <line num="43" count="2" type="stmt"/>
       </file>
-      <file name="StudentOrganization.js" path="D:\4\3 Разработка распределённых программных систем\student-organization-system\src\domain\entities\StudentOrganization.js">
+      <file name="StudentOrganization.js" path="D:\4\3 Разработка распределённых программных систем\student-organization-system\lab0\src\domain\entities\StudentOrganization.js">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="3" count="4" type="stmt"/>
         <line num="4" count="4" type="stmt"/>
@@ -53,7 +53,7 @@
     </package>
     <package name="services">
       <metrics statements="10" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="5" coveredmethods="5"/>
-      <file name="NotificationService.js" path="D:\4\3 Разработка распределённых программных систем\student-organization-system\src\domain\services\NotificationService.js">
+      <file name="NotificationService.js" path="D:\4\3 Разработка распределённых программных систем\student-organization-system\lab0\src\domain\services\NotificationService.js">
         <metrics statements="10" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="5" coveredmethods="5"/>
         <line num="3" count="3" type="stmt"/>
         <line num="8" count="3" type="stmt"/>
